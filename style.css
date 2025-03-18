@@ -20,7 +20,7 @@ body {
     width: 100%;
 
     /* padding: 1px; */
-    background: #cd9532;
+ 
 }
 .navlinks ul li a{
     color: #fff;
@@ -31,7 +31,7 @@ body {
    content: "";
    height: 2px;
    width: 0%;
-   background:#fff;
+   background:ghostwhite;
    display: block;
    margin: auto;
    transition: 0.5s;
@@ -91,7 +91,7 @@ gap: 55px;
 
   }
 
-  .menu ul li::after{
+  .collapse ul li::after{
     content: "";
     height: 2px;
     width: 0%;
@@ -101,7 +101,7 @@ gap: 55px;
     margin: auto;
     transition: 0.5s;
     }
-    .menu ul li:hover::after{
+    .collapse ul li:hover::after{
         width: 100%;
     
     }
@@ -357,7 +357,7 @@ padding: 20px;
 
 
 .footer {
-    background: #cd9532;
+    background: gray;
     color: white;
     padding: 20px 0;
     text-align: center;
